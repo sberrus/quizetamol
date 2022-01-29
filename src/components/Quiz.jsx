@@ -5,6 +5,7 @@ const Quiz = () => {
 	const [seleccion, setSeleccion] = useState(null);
 	const [next, setNext] = useState(false);
 	const [clean, setClean] = useState(true);
+	
 
 	useEffect(() => {
 		const botones = document.querySelectorAll("input[type='radio']");

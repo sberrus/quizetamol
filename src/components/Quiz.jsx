@@ -12,7 +12,6 @@ const Quiz = () => {
 		botones.forEach((btn) => {
 			btn.checked = false;
 		});
-		console.log(botones);
 	}, [clean]);
 
 	const preguntas = [

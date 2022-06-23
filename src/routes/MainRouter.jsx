@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 //Components
 import Index from "../components/Index";
-import Quiz from "../components/Quiz";
+import Quiz from "../components/questionario/Quiz";
 import Header from "../components/_partials/Header";
 
 //ProtectedRoute
